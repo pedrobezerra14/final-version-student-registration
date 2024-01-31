@@ -1,0 +1,66 @@
+#divv{
+	font-family: Arial, Helvetica, sans-serif;
+}
+#editar{
+	width: 24px;
+}
+#lixo{
+	width: 24px;
+	margin-right: 5px;
+}
+#bttns{
+	background-color: #121212;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+    border: none ;
+    transition: all linear 330ms;
+    cursor: pointer;
+}
+#bttns:hover {
+    transform: scale(1.15);
+    background-color: #ff0000;
+}
+#dbt {
+	text-align: center;
+	margin-bottom: 120px;
+}
+#lista{
+	margin-left: 200px;
+	margin-top: 50px;
+}
+#teste{
+	padding: 20px;
+	padding-left: 40px;
+	margin-top:200px;
+	text-align: center;
+	margin-left: 200px;
+	margin-right: 200px;
+	color: black;
+}
+
+body{
+	background-color: honeydew;
+	margin-top: 300px;
+}
+
+.table-dark{
+	margin-left: 100px;
+	text-align: center;
+	justify-content: center;
+}
+
+h1{
+	margin-top: 120px;
+}
+
+h1,h2{
+	margin-top: 120px;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	justify-content: center;
+}
+.td{
+    background-color: #8B0000;
+	color: white;
+}

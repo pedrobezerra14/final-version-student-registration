@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../CSS/estilo.css">
+	<link rel="stylesheet" type="text/css" href="../btsp/css/bootstrap.css">
+
+	<script>
+		function envi() {
+			alert("Aluno cadastrado!!!");
+		}
+	</script>
+
+</head>
+
+<body>
+	<h1>Preencha seus dados</h1>
+	<form method="POST" action="../Forms/env.php">
+
+		<br>
+		<br>
+
+		<div id="divv">
+
+			<div id="div1" class="row justify-content-center">
+
+				<div class="col-md-2">
+					<label>Nome do aluno</label>
+					<input type="Text" name="NOME" class="form-control" required><br>
+				</div>
+
+				<div class="col-md-2">
+					<label>Endereço</label>
+					<input type="Text" name="ENDERECO" class="form-control" required><br><br>
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-2">
+					<label for="bairro">Bairro</label>
+					<input type="Text" name="BAIRRO" id="bairro" class="form-control" required><br><br>
+				</div>
+
+				<div class="col-md-2">
+					<label>Cidade</label>
+					<input type="Text" name="CIDADE" class="form-control" required><br><br>
+				</div>
+
+			</div>
+			<div class="row justify-content-center">
+				<div class="col-md-2">
+					<label>Estado</label>
+					<select name="ESTADO" class="form-select" required>
+						<option>PB</option>
+						<option>RJ</option>
+						<option>SP</option>
+						<option>RN</option>
+						<option>PE</option>
+						<option>RR</option>
+						<option>RO</option>
+						<option>TO</option>
+						<option>MG</option>
+						<option>BA</option>
+						<option>PA</option>
+						<option>CE</option>
+						<option>AM</option>
+						<option>RS</option>
+						<option>DF</option>
+						<option>GO</option>
+						<option>AL</option>
+						<option>PR</option>
+						<option>ST</option>
+					</select><br><br>
+				</div>
+
+				<div class="col-md-2">
+					<label>Selecione seu sexo </label>
+					<select name="SEXO" class="form-select" required>
+						<option id="M">Masculino</option>
+						<option id="F">Feminino</option>
+						<option id="MF">Outros</option>
+
+					</select><br><br>
+				</div>
+			</div>
+			<br><br>
+			<div id="dbt">
+				<button id="bttns" onclick="envi()">Enviar cadastro</button>
+			</div>
+		</div>
+	</form>
+</body>
+
+</html>

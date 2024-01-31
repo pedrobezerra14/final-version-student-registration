@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="logincss/login.css">
+</head>
+<body>
+    <div class="page">
+        <form method="POST" action="autenticacao.php" class="formLogin">
+            <h1>Login</h1>
+            <p>Digite os seus dados de acesso no campo abaixo.</p>
+            <label>Login</label>
+            <input placeholder="Digite seu Login" name="LOGINN" autofocus="true" />
+            <select name="FUNC" >
+                <option>SELECIONE UMA OPÇÃO</option>
+                <option>Professor</option>
+                <option>Aluno</option>
+            </select>
+            <label for="password">Senha</label>
+            <input type="password" name="SENHA" placeholder="Digite sua senha" />
+            <a style="text-align: center;" href="cadusuario.php">Cadastre-se</a>
+            <input type="submit" value="Acessar" name="butao"  class="btn" /><br>
+            <a href="esenha.php">Esqueci minha senha</a>
+            
+        </form>
+    </div>
+</body>
+</html>
